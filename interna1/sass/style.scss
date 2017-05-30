@@ -1,0 +1,47 @@
+@import "reset";
+@import "variables";
+
+.contenedor{
+	max-width: 950px;
+	margin:auto;
+	position: relative;
+}
+
+.principal{
+	padding-top: 20px;
+	.arriba{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-family: $tipotextos;
+	font-size: 11px;
+	color: grey;
+		ul{
+			display: flex;
+			justify-content: space-end;
+			align-items: center;
+			li{
+				p{
+					border: 1px solid grey;
+					margin-left: 10px;
+					padding: 5px;
+				}
+				
+			}
+			
+		}
+	}
+}
+
+.abajo{
+	padding: 40px;
+	ul{
+	display: flex;
+	justify-content: space-around;
+	font-family: $tipotextos;
+	font-size: 12px;
+	max-width: 750px;
+	margin: auto;
+	}
+}

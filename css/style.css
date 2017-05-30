@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.contenedor {
+  max-width: 950px;
+  margin: auto;
+  position: relative; }
+
+.principal {
+  padding-top: 20px; }
+  .principal .arriba {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    color: grey; }
+    .principal .arriba ul {
+      display: flex;
+      justify-content: space-end;
+      align-items: center; }
+      .principal .arriba ul li p {
+        border: 1px solid grey;
+        margin-left: 10px;
+        padding: 5px; }
+
+.abajo {
+  padding: 40px; }
+  .abajo ul {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    max-width: 750px;
+    margin: auto; }
+
+/*SEGUNDA SECCIÓN*/
+.segunda {
+  margin-bottom: 20px; }
+  .segunda img {
+    width: 100%; }
+  .segunda article {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px; }
+    .segunda article h1 {
+      font-size: 50px;
+      margin: 20px;
+      font-family: "Fjalla One", sans-serif;
+      letter-spacing: 2px; }
+    .segunda article h4 {
+      font-size: 15px; }
+    .segunda article p {
+      font-size: 15px; }
+
+/*TERCERA SECCIÓN*/
+.tercera div {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 30px; }
+  .tercera div img {
+    margin: 10px;
+    width: 90%; }
+  .tercera div article {
+    position: relative; }
+  .tercera div p {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-family: "Fjalla One", sans-serif;
+    text-transform: uppercase;
+    bottom: 100px;
+    position: absolute;
+    width: 100%; }
+
+/*CUARTA SECCIÓN*/
+.cuarta {
+  text-align: center; }
+  .cuarta h2 {
+    font-family: "Fjalla One", sans-serif;
+    color: grey;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 30px;
+    letter-spacing: 2px; }
+  .cuarta div {
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: space-around; }
+    .cuarta div article {
+      padding-bottom: 30px; }
+      .cuarta div article img {
+        padding-bottom: 20px; }
+      .cuarta div article p {
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+        color: grey;
+        text-transform: uppercase; }
+      .cuarta div article h4 {
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+        color: black;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px; }
+
+/*quinta seccion*/
+.quinta div img {
+  width: 100%; }
+.quinta div article {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  letter-spacing: 1px; }
+
+/*# sourceMappingURL=style.css.map */
